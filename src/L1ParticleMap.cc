@@ -8,7 +8,7 @@
 //
 // Original Author:  Werner Sun
 //         Created:  Wed Jul 26 14:42:56 EDT 2006
-// $Id: L1ParticleMap.cc,v 1.25 2007/08/07 01:18:16 wsun Exp $
+// $Id: L1ParticleMap.cc,v 1.26 2007/08/08 03:49:04 wsun Exp $
 //
 
 // system include files
@@ -76,14 +76,14 @@ L1ParticleMap::triggerNames_[ kNumOfL1TriggerTypes ] = {
    "L1_HTT300",
    "L1_HTT400",
    "L1_HTT500",
-   "L1_ETM10",
-   "L1_ETM15",
+//    "L1_ETM10",
+//    "L1_ETM15",
    "L1_ETM20",
    "L1_ETM30",
    "L1_ETM40",
    "L1_ETM50",
    "L1_ETM60",
-   "L1_ETT60",
+//    "L1_ETT60",
    "L1_DoubleMu3",
    "L1_DoubleIsoEG8",
    "L1_DoubleIsoEG10",
@@ -150,7 +150,8 @@ L1ParticleMap::triggerNames_[ kNumOfL1TriggerTypes ] = {
    "L1_DoubleJet50_ETM20",
    "L1_DoubleTauJet40_ETM20",
    "L1_QuadJet30",
-   "L1_ExclusiveDoubleIsoEG4", 
+//    "L1_ExclusiveDoubleIsoEG4", 
+   "L1_ExclusiveDoubleIsoEG6", 
    "L1_ExclusiveDoubleJet60", 
    "L1_ExclusiveJet25_Gap_Jet25", 
    "L1_IsoEG10_Jet20_ForJet10",

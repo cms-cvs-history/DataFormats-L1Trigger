@@ -12,8 +12,11 @@
 //
 // Original Author:  Werner Sun
 //         Created:  Fri Jul 14 19:46:30 EDT 2006
-// $Id: L1ParticleMap.h,v 1.27 2007/08/07 01:18:15 wsun Exp $
+// $Id: L1ParticleMap.h,v 1.28 2007/08/08 03:49:03 wsun Exp $
 // $Log: L1ParticleMap.h,v $
+// Revision 1.28  2007/08/08 03:49:03  wsun
+// Diffractive trigger threshold update from X. Rouby.
+//
 // Revision 1.27  2007/08/07 01:18:15  wsun
 // Added JetMET calibration triggers from Len.
 //
@@ -181,14 +184,14 @@ namespace l1extra {
 	    kHTT300,
 	    kHTT400,
 	    kHTT500,
-	    kETM10,
-	    kETM15,
+/* 	    kETM10, */
+/* 	    kETM15, */
 	    kETM20,
 	    kETM30,
 	    kETM40,
 	    kETM50,
 	    kETM60,
-	    kETT60,
+/* 	    kETT60, */
 	    kDoubleMu3,
 	    kDoubleIsoEG8,
 	    kDoubleIsoEG10,
@@ -255,7 +258,8 @@ namespace l1extra {
 	    kDoubleJet50_ETM20,
 	    kDoubleTauJet40_ETM20,
 	    kQuadJet30,
-            kExclusiveDoubleIsoEG4,
+/*             kExclusiveDoubleIsoEG4, */
+            kExclusiveDoubleIsoEG6,
             kExclusiveDoubleJet60,
             kExclusiveJet25_Gap_Jet25,
             kIsoEG10_Jet20_ForJet10,
