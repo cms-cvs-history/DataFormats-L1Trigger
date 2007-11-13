@@ -7,6 +7,7 @@
  *\date 07.07
  */
 
+//#include <vector>
 #include <ostream>
 #include <string>
 #include <utility>
@@ -36,9 +37,6 @@ class L1DataEmulDigi {
   void data(unsigned int *d) const {d[0]=m_data[0]; d[1]=m_data[1];}
   void rank(float *r) const {r[0]=m_rank[0]; r[1]=m_rank[1];}
 
-  int reset();
-  bool empty() const;
-
  private:
 
   int m_sid;
@@ -47,7 +45,6 @@ class L1DataEmulDigi {
   int m_type;
   unsigned int m_data[2];
   float m_rank[2];
-  int m_null;
 
 };
 
